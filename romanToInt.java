@@ -1,5 +1,5 @@
-class Solution {
-    public int romanToInt(String s) {
+public class romanToInt {
+    public static int romanToInt(String s) {
         int integerValue = 0;
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
